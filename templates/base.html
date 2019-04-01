@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Required meta tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>{{ the_title }} </title>
+
+
+    {#부트스트랩 네비게이션 쓸때 드롭다운 등 하려면 jquery#}
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+          integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    <!--자 폰트어썸쓰자-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+          integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    {#부트스트랩 쓰려면 아래 cdn#}
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+
+    {#나눔 스퀘어 폰트#}
+    <link rel="stylesheet" href="//cdn.rawgit.com/hiun/NanumSquare/master/nanumsquare.css">
+    <link rel="stylesheet" href="/static/css/base.css">
+
+    {#    파비콘#}
+    <link rel="shortcut icon" href="/static/images/base/popcon_32.ico">
+</head>
+
+{% block body %}
+
+{% endblock %}
+<div id="footer" class="mt-5">
+    <div class="container-fluid step-1">
+        {#        푸터 1단계#}
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 mt-3">
+                    <ul class="list-inline">
+                        <li class="list-inline-item">서비스 소개</li>
+                        <li class="list-inline-item">입점 / 제휴문의</li>
+                        <li class="list-inline-item">공지사항</li>
+                        <li class="list-inline-item">이용약관</li>
+                        <li class="list-inline-item">개인정보 처리방침</li>
+                        <li class="list-inline-item">제휴마케팅</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container pt-4 pb-4 step-2 text-center">
+        <table class="w-100">
+            <tr>
+                <td rowspan="4" ><img src="static/images/base/popcon_logo2.png" width="80px;"></td>
+                <td class="text-left">
+                    (주)팝크리에이션
+                </td>
+                <td>
+                    제휴매체 : 월간 팝사인
+                </td>
+                <td>
+                    제휴매체 : 월간 텍스타일
+                </td>
+                  <td>
+                    제휴전시회 : 코사인 2019
+                </td>
+            </tr>
+            <tr>
+                <td class="text-left">서울시 성동구 성수일로 10길 26
+                </td>
+                <td rowspan="2" class="text-center"><img src="static/images/base/popsign_logo.png" height="35px;"></td>
+                <td rowspan="2" class="text-center"><img src="static/images/base/textile_logo.png"  height="30px;"></td>
+                 <td rowspan="2" class="text-center"><img src="static/images/base/kosign.png"  height="30px;"></td>
+            </tr>
+            <tr>
+                <td class="text-left">사업자등록번호 : 214-86-36019
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div class="container-fluid text-center pt-3 pb-3 step-3">
+        Copyright 2019 POPCreation Co., Ltd All rights reserved.
+    </div>
+</div>
+
+</body>
+</html>

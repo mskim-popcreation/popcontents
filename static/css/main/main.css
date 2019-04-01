@@ -1,0 +1,15 @@
+.centered{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    color:white;
+    font-size:2.5em;
+}
+
+/*search box css*/
+
+.card{
+    border:none;
+}
+

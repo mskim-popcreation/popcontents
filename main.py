@@ -1,12 +1,12 @@
-from flask import Flask
+from flask import Flask, render_template
 
 app = Flask(__name__)
 
 import os
 
 @app.route('/')
-def hello_world():
-    return 'Helloasdfasdf Woradfld!'
+def main() -> 'html':
+    return render_template('main.html', the_title='메인화면')
 
 
 if __name__ == '__main__':
